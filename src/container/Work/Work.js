@@ -9,10 +9,11 @@ import ProjectData from '../../constants/ProjectData';
 
 
 const Work = () => {
-  const [activeFilter, setActiveFilter] = useState('All');
+  const reactData = ProjectData.filter((data)=> data.tag[0] === "React Apps");
+  const [activeFilter, setActiveFilter] = useState('React Apps');
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
   const [works, setWorks] = useState(ProjectData);
-  const [filterWorks, setFilterWorks] = useState(ProjectData);
+  const [filterWorks, setFilterWorks] = useState(reactData);
 
   const handleWorkFilter = (item) => {
     setActiveFilter(item);
