@@ -1,6 +1,14 @@
 import { images } from '../constants' ;
 const ProjectData = [
     {
+        title: "Climate Labs Weather App",
+        description: "A React App to fetch data from two API's and showing it by customizing in the components",
+        projectLink: "https://climate-labs.netlify.app/",
+        codeLink: "https://github.com/iamalhera/weather-app",
+        imageURL: images.climate_labs,
+        tag: ["React Apps", "API and Backend Apps" , "All"]
+    },
+    {
         title: "KBM Quiz App",
         description: "Kaun Banega Millionaire WebApp built in HTML, CSS and ReactJS which provides series of question in the form of Quiz.",
         projectLink: "https://kaun-banega-millionaire.netlify.app/",
