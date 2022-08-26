@@ -54,8 +54,8 @@ const SkillData = [
         icon : images.mu5
     },
     {
-        name : "Tailwind CSS",
-        icon : images.tailwind_css
+        name : "Bootstrap",
+        icon : images.bootstrap
     },
     {
         name : "API",

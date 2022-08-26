@@ -9,7 +9,7 @@ import github from '../assets/github.jpg';
 import html from '../assets/html.png';
 import javascript from '../assets/javascript.png';
 import mu5 from '../assets/mu5.png';
-import tailwind_css from '../assets/tailwind_css.jpg';
+import bootstrap from '../assets/bootstrap.png';
 import react from '../assets/react.png';
 import react_router from '../assets/react_router.png';
 import sass from '../assets/sass.png';
@@ -41,6 +41,7 @@ import shakespeare_english_translator from '../assets/projects/shakespeare_engli
 import minion_speak from '../assets/projects/minion_speak.png';
 import calisthetics_shop from '../assets/projects/calisthetics_shop.png';
 import climate_labs from '../assets/projects/climate_labs.png' ;
+import notes_making from '../assets/projects/notes_making.png'
 
 import blog01 from '../assets/Blogs/blog01.png';
 import blog02 from '../assets/Blogs/blog02.png';
@@ -61,7 +62,7 @@ export default {
   react,
   react_router,
   sass,
-  tailwind_css,
+  bootstrap,
   js,
   firebase,
   netlify,
@@ -87,6 +88,7 @@ export default {
   minion_speak,
   calisthetics_shop,
   climate_labs,
+  notes_making,
   blog01,
   blog02,
   blog03
