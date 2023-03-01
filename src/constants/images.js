@@ -42,6 +42,7 @@ import minion_speak from '../assets/projects/minion_speak.png';
 import calisthetics_shop from '../assets/projects/calisthetics_shop.png';
 import climate_labs from '../assets/projects/climate_labs.png' ;
 import notes_making from '../assets/projects/notes_making.png'
+import oeba_ui from '../assets/projects/oeba_ui.png';
 
 import blog01 from '../assets/Blogs/blog01.png';
 import blog02 from '../assets/Blogs/blog02.png';
@@ -89,6 +90,7 @@ export default {
   calisthetics_shop,
   climate_labs,
   notes_making,
+  oeba_ui,
   blog01,
   blog02,
   blog03

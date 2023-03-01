@@ -10,10 +10,6 @@ const SkillData = [
         icon : images.html
     },
     {
-        name : "Sass",
-        icon : images.sass
-    },
-    {
         name : "CSS",
         icon : images.css
     },
@@ -34,28 +30,8 @@ const SkillData = [
         icon : images.github
     },
     {
-        name : "firebase",
-        icon : images.firebase
-    },
-    {
-        name : "Netlify",
-        icon : images.netlify
-    },
-    {
-        name : "C",
-        icon : images.c
-    },
-    {
         name : "Cpp",
         icon : images.cpp
-    },
-    {
-        name : "Material UI",
-        icon : images.mu5
-    },
-    {
-        name : "Bootstrap",
-        icon : images.bootstrap
     },
     {
         name : "API",

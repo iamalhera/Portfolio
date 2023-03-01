@@ -9,6 +9,14 @@ const ProjectData = [
         tag: ["React Apps", "All"]
     },
     {
+        title: "OEBA UI : Component Library",
+        description: "oebaUI is an open source UI component library created using HTML, CSS made for building fast, responsive and attractive websites in minutes",
+        projectLink: "https://oebaui.netlify.app/",
+        codeLink: "https://github.com/iamalhera/oebaUI",
+        imageURL: images.oeba_ui,
+        tag: ["Websites", "All"]
+    },
+    {
         title: "Climate Labs Weather App",
         description: "A React App to fetch data from two API's and showing it by customizing in the components",
         projectLink: "https://climate-labs.netlify.app/",
@@ -119,7 +127,7 @@ const ProjectData = [
         codeLink: "https://github.com/iamalhera/Calisthetics-Shop",
         imageURL: images.calisthetics_shop,
         tag: ["Websites", "All"]
-    },
+    }
 ];
 
 export default ProjectData;
