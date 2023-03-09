@@ -1,6 +1,14 @@
 import { images } from '../constants' ;
 const ProjectData = [
     {
+        title: "Oeba Shop : eCommerce App",
+        description: "It is an ecommerce webApp made with the help of HTML, CSS, JS, React, React-Router and some APIs. Its purpose was to extensively understand the use of useReducer + useContext as a state management.",
+        projectLink: "https://oebashop.netlify.app/",
+        codeLink: "https://github.com/iamalhera/oeba-shop",
+        imageURL: images.oeba_shop,
+        tag: ["React Apps", "All"]
+    },
+    {
         title: "Notes Making App",
         description: "A React App to do CRUD operations in note making and seending and retrieving data from local storage. and component library and design guide is by bootstrap",
         projectLink: "https://note-making-app-shah.netlify.app/",
