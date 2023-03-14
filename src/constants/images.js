@@ -48,6 +48,7 @@ import oeba_shop from '../assets/projects/oeba_shop.png';
 import blog01 from '../assets/Blogs/blog01.png';
 import blog02 from '../assets/Blogs/blog02.png';
 import blog03 from '../assets/Blogs/blog03.png';
+import blog04 from '../assets/Blogs/blog04.png';
 
 export default {
   email,
@@ -95,5 +96,6 @@ export default {
   oeba_shop,
   blog01,
   blog02,
-  blog03
+  blog03,
+  blog04
 };
