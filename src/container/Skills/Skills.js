@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import ReactToolTip from 'react-tooltip';
 
 import SkillData from './SkillData';
 import { AppWrap, MotionWrap } from '../../wrapper';
@@ -23,7 +22,7 @@ const Skills = () => {
           key={skill.name}
           >
             <div className="app__flex" style={{backgroundColor: "#edf2f8"}}>
-              <img src={skill.icon} alt={skill.name} />
+              <img src={skill.icon} alt={skill.name} loading="lazy"/>
             </div>
             <p className='p-text'>{skill.name}</p>
           </motion.div>
