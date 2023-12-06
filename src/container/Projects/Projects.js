@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 // import { urlFor, client } from '../../client' ;
-import './Work.scss';
+import './Projects.scss';
 import ProjectData from '../../constants/ProjectData';
 
 
-const Work = () => {
+const Projects = () => {
   const reactData = ProjectData.filter((data)=> data.tag[0] === "React Apps");
   const [activeFilter, setActiveFilter] = useState('React Apps');
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
@@ -101,7 +101,7 @@ const Work = () => {
 }
 
 export default AppWrap(
-  MotionWrap(Work, 'app__works'),
-  'work',
-  "app__primarybg"
+  MotionWrap(Projects, 'app__projects'),
+  'projects',
+  "app__whitebg"
 );

@@ -58,5 +58,5 @@ const Blogs = () => {
 export default AppWrap(
   MotionWrap(Blogs, 'app__blogs'),
   'blogs',
-  "app__whitebg"
+  "app__primarybg"
 );

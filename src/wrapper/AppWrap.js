@@ -2,15 +2,16 @@ import React from 'react'
 import { NavigationDots, SocialMedia } from '../components' ;
 
 const AppWrap = (Component, idName, classNames) => function HOC() {
+  let date = new Date();
   return (
     <div id={idName} className={`app__container ${classNames}`}>
-        <SocialMedia />
+        {idName === "home" &&<SocialMedia /> }
 
         <div className='app__wrapper app__flex'>
             <Component/>
 
             <div className="copyright">
-                <p className='p-text'>@2023 Al Hera</p>
+                <p className='p-text'>@{date.getFullYear()} Al Hera </p>
                 <p className='p-text'>All rights reserved</p>
             </div>
         </div>

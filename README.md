@@ -22,11 +22,10 @@ It is Portfolio web application made with React, JS , HTML, CSS, SASS and frame 
 
 ## Screenshot
 ![Home](./src/assets/screenshots/home.png)
-![About](./src/assets/screenshots/about.png)
-![Work](./src/assets/screenshots/work.png)
-![Skill](./src/assets/screenshots/skills.png)
-![Blog](./src/assets/screenshots/blog.png)
-![Contact](./src/assets/screenshots/contact.png)
+![Skills](./src/assets/screenshots/skills.png)
+![Work Experience](./src/assets/screenshots/experience.png)
+![Projects](./src/assets/screenshots/projects.png)
+![Blog](./src/assets/screenshots/blogs.png)
 
 ## Technologies
 HTML, CSS, JS, React, SASS, framer-motion, `font-awesome` & `Icones` for the icons

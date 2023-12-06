@@ -2,8 +2,56 @@ import {images} from "../../constants" ;
 
 const SkillData = [
     {
-        name : "React",
+        name : "ReactJS",
+        icon : images.react2
+    },
+    {
+        name : "JavaScript",
+        icon : images.js
+    },
+    {
+        name : "React Native",
         icon : images.react
+    },
+    {
+        name : "TypeScript",
+        icon : images.typescript
+    },
+    {
+        name : "NodeJS",
+        icon : images.node
+    },
+    {
+        name : "SASS",
+        icon : images.sass
+    },
+    {
+        name : "High Charts",
+        icon : images.highcharts
+    },
+    {
+        name : "Postman",
+        icon : images.postman
+    },
+    {
+        name : "mongoDB",
+        icon : images.mongodb
+    },
+    {
+        name : "Tailwind CSS",
+        icon : images.tailwind
+    },
+    {
+        name : "React Router",
+        icon : images.react_router
+    },
+    {
+        name : "GitHub",
+        icon : images.github
+    },
+    {
+        name : "ExpressJS",
+        icon : images.express
     },
     {
         name : "HTML",
@@ -18,25 +66,13 @@ const SkillData = [
         icon : images.git
     },
     {
-        name : "JavaScript",
-        icon : images.js
+        name : "Elastic Search",
+        icon : images.elastic_search
     },
-    {
-        name : "React Router",
-        icon : images.react_router
-    },
-    {
-        name : "GitHub",
-        icon : images.github
-    },
-    {
-        name : "Cpp",
-        icon : images.cpp
-    },
-    {
-        name : "API",
-        icon : images.api
-    },
+    // {
+    //     name : "REST API",
+    //     icon : images.api
+    // },
 ];
 
 export default SkillData ;

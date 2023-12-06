@@ -16,6 +16,15 @@ import sass from '../assets/sass.png';
 import js from '../assets/js.png';
 import firebase from '../assets/firebase.png';
 import netlify from '../assets/netlify.png' ;
+import react2 from '../assets/react2.png';
+import typescript from '../assets/typescript.png';
+import node from '../assets/node.png'
+import highcharts from '../assets/highcharts.png';
+import postman from '../assets/postman.png';
+import tailwind from '../assets/tailwind.png';
+import elastic_search from '../assets/elastic_search.png';
+import mongodb from '../assets/mongodb.png';
+import express from '../assets/express.png';
 
 import about01 from '../assets/about01.jpg';
 import about02 from '../assets/about02.png';
@@ -26,6 +35,8 @@ import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
 import amu from '../assets/amu.jpg';
+
+import kayrros from '../assets/kayross_logo.png';
 
 import kbm_quiz from '../assets/projects/kbm_quiz.png';
 import portfolio from '../assets/projects/portfolio.png';
@@ -64,6 +75,15 @@ export default {
   mu5,
   react,
   react_router,
+  react2,
+  typescript,
+  node,
+  highcharts,
+  postman,
+  tailwind,
+  elastic_search,
+  mongodb,
+  express,
   sass,
   bootstrap,
   js,
@@ -73,6 +93,7 @@ export default {
   about02,
   about03,
   about04,
+  kayrros,
   profile,
   circle,
   logo,

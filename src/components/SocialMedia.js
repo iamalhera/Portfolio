@@ -19,11 +19,11 @@ const SocialMedia = () => {
                     <BsTwitter />
                 </a>
             </div>
-            <div>
+            {/* <div>
                 <a href="https://www.instagram.com/alhera_ahmad/">
                     <BsInstagram />
                 </a>
-            </div>
+            </div> */}
 
         </div>
     )

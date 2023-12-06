@@ -1,5 +1,5 @@
 import React from 'react' ;
-import {About, Blogs, Footer, Header, Skills, Work} from './container/index' ;
+import {Experience, Blogs, Header, Skills, Projects} from './container/index' ;
 import {Navbar} from './components/index' ;
 import './App.scss' ;
 const App = () => {
@@ -8,11 +8,11 @@ const App = () => {
         <div className='app'>
             <Navbar />
             <Header />
-            <About />
-            <Work />
-            <Blogs />
             <Skills />
-            <Footer />
+            <Experience />
+            <Projects />
+            <Blogs />
+            {/* <Footer /> */}
         </div>
     )
 }
