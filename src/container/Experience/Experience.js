@@ -36,6 +36,7 @@ const Experience = () => {
                 <a href="https://kayrros.com/unlocking-the-future-of-california-carbon-trades-introducing-us-carbon-watch/" target='_blank'><BsLink/></a>
               </div>
               <ul>
+                <li><p className="p-text-dark">Cloud-based service, built with Microservices, informs US/EU customers about carbon credits.</p></li>
                 <li><p className="p-text-dark">Developed the entire UI for the product, ensuring responsiveness for tablet and desktop view.</p></li>
                 <li><p className="p-text-dark">Created a REST API for public use of the product.</p></li>
                 <li><p className="p-text-dark"><i>Technologies Used: React, JavaScript, NodeJS, HighCharts, ElasticSearch</i></p></li>
@@ -47,6 +48,8 @@ const Experience = () => {
                   <a href="https://app.world-emission.com/" target='_blank'><BsGlobe/></a>
                 </div>
                 <ul>
+                  <li><p className="p-text-dark">Kayrros hosts the World Emission portal, a public site in collaboration with research labs and government agencies,
+monitoring global greenhouse gas emissions.</p></li>
                   <li><p className="p-text-dark">Significantly enhanced the pointSource and regional perspectives of the app by introducing multiple products.</p></li>
                   <li><p className="p-text-dark">Restructured the UI code for improved efficiency and modularity</p></li>
                   <li><p className="p-text-dark">Implemented various additional features and addressed UI-related bugs in the app.</p></li>
